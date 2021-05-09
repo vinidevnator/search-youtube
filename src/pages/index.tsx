@@ -7,6 +7,7 @@ import InputSearch from '../components/InputSearch';
 import VideoEmbed from '../components/VideoEmbed';
 import { Container, SearchContent, SearchBar, Results, SearchResults, ResultHeader, VideoSelected } from './styles';
 
+// Create a page to search a video
 export function Search() {
     const [search, setSearch] = useState('');
     const [video, setVideo] = useState<IVideo>({} as IVideo);

@@ -13,6 +13,7 @@ interface IItem {
     url: string
 }
 
+// Render list of videos
 export default function VideoEmbed({ list, showVideo }: IVideoEmbed) {
     return (
         <Item.Group divided link>
